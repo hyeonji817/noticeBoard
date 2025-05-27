@@ -8,7 +8,7 @@ function App() {
 
   const addPost = () => {
     if (title.trim() === "") return; 
-    setPosts([...posts, { id: Date.now(), title }]);
+    setPosts([...posts, { id: Date.now(), title }]);  // 수정한 부분 
     setTitle("");
   };
 
